@@ -1,0 +1,225 @@
+@import "normalize.styl"
+@import "fonts.styl"
+azul_face = #3d5a98
+azul_twit = #5fa9dd
+azul_border = #243554
+gris_claro = #8e8e8e
+gris_oscuro = #333333
+gris_mas_claro= #f3f3f3
+fuscia = #cc2f6f
+a
+	text-decoration none
+	color white
+ul
+	margin 0 
+	padding 0
+body
+	font-family 'Varela Round'
+	font-size 16px
+figure
+	margin 0
+footer
+	background-color gris_oscuro
+	padding .5em .5em
+.author
+	color gris_claro
+.absolute
+	position absolute
+.about
+	margin-right 1.2em
+	position relative
+	vertical-align -.5em
+.button-menu
+	left .5em
+	margin-top -10px
+	position absolute
+	text-decoration none
+	top 50%
+.border-bottom
+	border-bottom 1px solid gris_claro
+.icon-menu
+	color gris_oscuro
+.icon-sfotipy
+	font-size 1.8em
+	margin-left 1.4em
+	vertical-align -.5em
+.center-block
+	margin 0 auto
+.container
+	text-align center
+	font-size 0
+	padding 1.4rem
+.decoration
+	text-decoration underline
+/*.final
+	margin-left 1.7em*/
+.final_one
+	margin-left 1.7em
+	position relative
+	top -2.1em
+.song
+	display inline-block
+	font-size 1rem
+	margin-right 1em
+	margin-bottom 1em
+	text-align left
+	width 8rem
+	&:nth-child(even)
+		margin-right 0
+	p
+		margin .5em 0
+.name
+	color gris_oscuro
+.menu
+	display none
+.relative
+	position relative
+.right
+	float right
+.left
+	float left
+.round
+	border-radius 50%
+	overflow hidden
+.wrap
+	width 1000px
+.legal
+	margin-right 1.6em
+	position relative
+	vertical-align -.5em
+.header
+	height 3.5em
+	position relative
+	.title
+		font-size 1.1em
+		text-align center
+		margin 0
+		line-height 3.5em
+.input
+	border 1px solid gris_claro
+	height 2.5em
+	border-radius 5px
+	padding 0 1em 0 2em
+.icon-search
+	color gris_claro
+	left .5em
+	position absolute
+	top .8em
+.image-logo
+	display none
+.close-icon
+	font-size 1.2em
+	position absolute
+	right .5em
+	top .5em
+	color gris_claro
+.white
+	color white
+@media screen and (min-width:480px)
+	.container
+			&.medium
+				width auto
+	.song
+		&:nth-child(odd)
+				margin-left 1em
+	.search
+		display none
+	.final
+		float left
+		margin-left 8.9em
+	.final_one
+		display none
+	.icon-sfotipy
+		margin-left -9.4em
+	.mobil
+		float left
+		margin-left 6.8em
+			
+@media screen and (min-width:1000px)
+	body
+		background-color gris_mas_claro
+	.button-menu
+		display none
+	.final_one
+		display none
+	.menu
+		display block
+		/*overflow hidden*/
+		background-color gris_mas_claro
+		.item
+			float left
+			list-style none
+			padding-top 1.3em
+		a
+			color gris_oscuro
+			text-transform uppercase
+			cursor pointer
+			padding 1em
+			border-top 5px solid transparent
+			transition 0.5s ease
+			&:hover
+				border-top 5px solid gris_claro
+	header
+		&.large
+			width auto 			
+	.header
+		background-color white
+		height auto
+		.title
+			display none
+	.avatar
+		width 38px
+		height 38px
+	.image-logo
+		display block
+	.logo
+		padding 1.3em 0
+		overflow hidden
+		background-color white
+		
+	.username
+		color gris_claro
+		position relative
+		top 8px
+		margin-left .5em
+		&:after
+			border-left 7px solid transparent 
+			border-right 7px solid transparent
+			border-top 9px solid gris_claro
+			content ""
+			display inline-block
+			margin-left .5em
+	.search
+		margin-right 2.5em
+		display block
+	.desktop
+		margin 0 auto
+		width 1000px
+		padding-top 50px 
+		
+	
+		
+
+	
+	
+	
+	
+	
+	
+		 
+	
+
+		
+
+	
+
+
+		 
+
+		
+
+
+
+	
+	
+	 

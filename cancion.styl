@@ -1,0 +1,296 @@
+@import "normalize.styl"
+@import "fonts.styl"
+gris_claro = #8e8e8e
+gris_oscuro = #333333
+gris_mas_claro= #f3f3f3
+fuscia = #cc2f6f
+a
+	text-decoration none
+	color red
+body
+	font-family 'Varela Round', sans-serif
+	font-size 16px 
+figure
+	margin 0
+footer
+	background-color gris_oscuro
+	padding .5em .5em
+img
+	vertical-align top
+ul
+	padding 0
+	margin 0
+p
+	margin .8em 0
+.author
+	color gris_claro
+.about
+	margin-right 1.2em
+	position relative
+	vertical-align -.8em
+.legal
+	margin-right 1.6em
+	position relative
+	vertical-align -.8em
+.name
+	font-size 1.2em
+.action
+	color white
+	margin-right .5em
+	font-size 1.6em
+	&:last-child
+		margin-right 0
+	&.gray
+		color gris_claro
+.actions
+	position absolute
+	bottom 0
+	right 0
+	left 0
+	background-color rgba(black,.3)
+.absolute
+	position absolute
+.about
+	margin-right 1.2em
+	position relative
+	vertical-align -.5em
+.button-menu
+	left .5em
+	margin-top -10px
+	position absolute
+	text-decoration none
+	top 50%
+.border-bottom
+	border-bottom 1px solid gris_claro
+.icon-menu
+	color gris_oscuro
+.icon-sfotipy
+	font-size 1.8em
+	vertical-align -.8em
+	margin-left 1.4em
+.image-logo
+	display none
+.center-block
+	margin 0 auto
+.center-text
+	text-align center
+.decoration
+	text-decoration underline
+.final_one
+	margin-left 1.7em
+	position relative
+	top -2.1em
+/*.final
+	margin-left 1.7em
+	position relative
+	top -2.1em*/
+.name
+	color gris_oscuro
+.menu
+	display none
+.menu
+	display none
+.relative
+	position relative
+.right
+	float right
+.right-text
+	text-align right
+.left
+	float left
+.round
+	border-radius 50%
+	overflow hidden
+.padding
+	padding 1em
+.padding-tb
+	padding 1em 0
+.playing
+	&.small
+		width 20em
+	    margin 0 auto
+.playlist
+	display none
+.progress
+	margin 1em 0
+	position relative
+	.min
+	.max
+		position absolute
+		top -5px
+		font-size .8em
+	.min
+		left 0
+	.max
+		right 0
+	.total
+		background gris_claro
+		border-radius 1.7em
+		height 4px
+		margin 0 auto
+		width 75%
+		position relative
+	.stado
+		background fuscia
+		width 30%
+		height 4px
+		border-radius 1.7em
+		position relative
+	.circle
+		background gris_oscuro
+		border-radius 100%
+		height 10px
+		position absolute 
+		right 0
+		width 10px
+		top -2px
+.legal
+	margin-right 1.6em
+	position relative
+	vertical-align -.5em
+.header
+	height 3.5em
+	position relative
+	.title
+		font-size 1.1em
+		text-align center
+		margin 0
+		line-height 3.5em
+.input
+	border 1px solid gris_claro
+	height 2.5em
+	border-radius 5px
+	padding 0 1em 0 2em
+.icon-search
+	color gris_claro
+	left .5em
+	position absolute
+	top .8em
+.close-icon
+	font-size 1.2em
+	position absolute
+	right .5em
+	top .5em
+	color gris_claro
+.wrap
+	width 1000px
+.white
+	color white
+@media screen and (min-width:480px)
+	.playing
+		&.medium
+			width auto
+	.playing
+		img
+			width 100%
+			height auto
+	.playlist
+		display none
+	.final
+		float left
+		margin-left 8.9em
+	.final_one
+		display none
+	.icon-sfotipy
+		font-size 1.8em
+		vertical-align -.5em
+		margin-left .4em
+	.search
+		display none
+@media screen and (min-width:1000px)
+	body
+		background-color gris_mas_claro
+	.avatar
+		width 38px
+		height 38px
+	.author
+		font-size 1.3em
+	.button-menu
+		display none
+	.description
+		border-bottom none
+	.final_one
+		display none
+	.playlist
+		display block
+	.playlist
+		width 22em
+		border-left 1px solid gris_claro
+		padding 0 2em 
+		.list
+			list-style none
+		.item
+			padding 1em 0
+		.action
+			font-size .8em
+	.playing
+		padding-top 1.3em 
+		&.large
+			margin 0 auto
+			width 62.5em
+			overflow hidden	
+	.name
+		font-size 1.7em
+	.music
+		width 32.5em
+		float left
+	.menu
+		display block
+		background gris_mas_claro
+		overflow hidden
+		border-top 1px solid gris_claro
+		.item
+			float left
+			list-style none
+			a
+				color gris_oscuro
+				cursor pointer
+				display block
+				padding 1em
+				text-transform uppercase
+				border-top 5px solid transparent
+				transition .3s border-top ease
+				&:hover
+					border-top 5px solid gris_claro
+	header
+		&.large
+			width auto 			
+	.header
+		background-color white
+		height auto
+		border-bottom none
+		.title
+			display none
+	.avatar
+		width 38px
+		height 38px
+	.image-logo
+		display block
+	.logo
+		padding 1.3em 0
+		overflow hidden
+		background-color white
+	.username
+		color gris_claro
+		position relative
+		top 8px
+		margin-left .5em
+		&:after
+			border-left 7px solid transparent 
+			border-right 7px solid transparent
+			border-top 9px solid gris_claro
+			content ""
+			display inline-block
+			margin-left .5em
+	.search
+		margin-right 2.5em
+		display block
+
+
+
+
+
+	
+	
+
+

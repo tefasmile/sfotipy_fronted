@@ -1,0 +1,287 @@
+@import "normalize.styl"
+@import "fonts.styl"
+azul_face = #3d5a98
+azul_twit = #5fa9dd
+azul_border = #243554
+gris_claro = #8e8e8e
+gris_oscuro = #333333
+fuscia = #cc2f6f
+a
+	text-decoration none
+	color white
+body
+	font-family 'Varela Round'
+	font-size 16px
+footer
+	background-color gris_oscuro
+	padding .5em .5em
+header
+	display none
+.about
+	margin-right 1.2em
+	position relative
+	vertical-align -.8em
+.absolute
+	position absolute
+.border
+	border 1px solid azul_border
+	height 1.5em
+	line-height 1em
+.bord
+	border-bottom 1px solid gris_claro
+.center-block
+	margin 0 auto
+.decoration
+	text-decoration underline
+.logo
+	margin-top -30.5em
+	text-align center
+.legal
+	margin-right 1.6em
+	position relative
+	vertical-align -.8em
+.listen
+	font-size 1.5rem
+	text-align center 
+.final
+	margin-left 1.7em
+.conten-desktop
+	display none
+.contenido-desktop
+	display none
+.home
+	.fondo-home
+			.inicio
+				background-image url(img/home-inicio.jpg)
+				background-repeat no-repeat
+				background-position center
+				background-size 100% 
+				margin 0
+.icon-sfotipy
+	font-size 1.8em
+	vertical-align -.8em
+	margin-left 1.4em
+.info-border
+	width 25em
+	margin 0 auto
+.intro_deskt
+	display none
+.slogan
+	font-size 1.8em
+	text-align center
+.slash
+	border 4px solid rgba(0, 0, 0, .5)
+	border-top-width 16px
+	vertical-align -.6em
+	margin 0 auto
+.only
+	border 1px solid gris_oscuro
+	border-top-width 18px
+	vertical-align -.6em
+	margin 0 auto
+#redes-social 
+	display block
+	margin-top 2em
+	text-align center
+	.face
+		background-color azul_face
+		border-radius 4px
+		text-align center
+		padding 1.5em 1.5em 1.5em 1em
+		/*padding 1.5em 1.5em 1.5em 1em*/
+
+	.icon-facebook
+		font-size 1.9em
+		padding-right .2em 1.5em 0 .5em
+		margin-top 20px
+		margin-right .5em
+		vertical-align -.2em
+	.slash
+		border 1px solid azul_border
+		margin-right 1em
+		border-top-width 21px
+		margin-bottom 1em
+		vertical-align -.6em
+	.twit
+		background-color azul_twit
+		border-radius 4px
+		padding 1.5em 2.2em 1.5em 1.3em
+	.slash-tw
+		border 1px solid azul_border
+		margin-right 1.7em
+		border-top-width 21px
+		margin-bottom 1em
+		vertical-align -.6em
+	.icon-twitter
+		font-size 1.9em
+		padding-right .2em 1.5em 0 .5em
+		margin-top 20px
+		margin-right .5em
+		vertical-align -.2em
+	
+.relative
+	position relative
+.right
+	float right
+.left
+	float left
+.login
+	margin-top 9rem	
+	text-align center	
+	overflow: hidden	
+	margin center	
+	.log-in	
+		color gris_claro	
+		margin-right 4em	
+	.account	
+		color gris_claro	
+		text-align left	
+		margin-left 4em	
+	a	
+		text-decoration underline		
+.contenido
+	&.small
+		margin 0 auto
+		
+	.image
+		padding 0
+		margin 0
+		margin-top 1.8em
+		
+	.title
+		text-align center
+		font-size 1.5rem
+	.leyend
+		color gris_claro
+		text-align center
+/*utilidades*/
+.white
+	color white
+
+@media screen and (min-width:480px)
+	
+	.contenido
+		&.medium
+			width auto
+	.final
+		float left
+		margin-left 8.9em
+	.icon-sfotipy
+		font-size 1.8em
+		vertical-align -.8em
+		margin-left -9.4em
+	.inicio
+		img
+			width 100%
+			height auto
+	.image
+		img
+			width 100%
+			height auto
+	.logo
+		img
+			width 396px
+			height 123px
+	
+@media screen and (min-width:1000px)
+	body
+		background-image url(img/home-desktop.jpg)
+		background-position center top
+		background-repeat no-repeat
+		background-size cover
+		height 600px
+	header
+		display block
+		.header
+			&.large
+				width auto
+	figure
+		margin 0
+	footer
+		margin-top 17.6em
+		padding .2em 
+		padding-bottom 1.6em
+		.wrap
+			width 1000px
+		.center-block
+			margin 0 auto
+	.article
+		padding-top 2.1em
+		.contenedor
+			/*background-color red*/
+			margin-top 10.5em
+			.leyenda
+			/*background-color blue*/
+	.contenido
+		display none
+	.conten-desktop
+		padding 1.5em 0
+		overflow hidden
+		min-height 600px
+		display block
+	.contenido-desktop
+		display block
+		.wrap
+			width 1000px
+	.cuenta
+		font-size 1.5em
+		display inline-block
+		margin-top .5em
+		.account
+			color fuscia
+	.der
+		right 24.8em
+	.der-text
+		padding-left 8.2em	
+	.top
+		padding 8.2em 0 4.2em 0
+	.enter
+		color fuscia
+		font-size 1.5em
+	.final
+		float left
+		margin-left 8.9em
+	.font
+		font-size .5em
+	.picture
+		padding-right 5.8em
+	#redes-social
+		margin-top 4.5em
+	.fondo-home
+		display none
+	/*.home
+		display none*/
+	.icon-sfotipy
+		font-size 1.8em
+		vertical-align -.8em
+		margin-left -9.4em
+				
+	.title
+		font-size 2.2rem
+		color gris_oscuro
+		text-align left
+		margin-left 401px
+		margin-top -7.4em
+			
+	.leyend
+		text-align left
+		font-size 2em
+		color gris_claro
+		margin-left 401px
+	
+	.image
+		width 301px
+	
+	.login
+		display none
+	.listen
+		display none
+	.slogan-deskt
+		font-size 3em
+		text-align center
+	.wrap
+		width 1000px
+	
+	
+		
+	

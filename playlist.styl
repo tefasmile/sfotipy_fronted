@@ -1,0 +1,93 @@
+@import "normalize.styl"
+@import "fonts.styl"
+gris_claro = #8e8e8e
+gris_oscuro = #333333
+gris_mas_claro= #f3f3f3
+fuscia = #cc2f6f
+a
+	text-decoration none
+	color red
+body
+	font-family 'Varela Round', sans-serif
+	font-size 16px 
+figure
+	margin 0
+footer
+	background-color gris_oscuro
+	padding .5em .5em
+img
+	vertical-align top
+ul
+	padding 0
+	margin 0
+.menu
+	display none
+.border-bottom
+	border-bottom 1px solid gris_claro
+.button-menu
+	margin-top -10px
+	position absolute
+	left  .5em
+	top 50%
+/*Utilidades*/
+.decoration
+	text-decoration underline
+.relative
+	position relative
+.absolute
+	position absolute
+.left
+	float left
+.right
+	float right
+.padding
+	padding .7em 0 0 0
+.padding-tb
+	padding 1em 
+.item
+	height 4.2em
+	vertical-align 
+.image
+	height 39px
+	width 39px
+.playlists
+	&.small
+		width 20em
+		margin 0 auto
+.playlists
+	.list
+		list-style none
+	.author
+		color gris_oscuro
+		margin-left 4.7em
+		position relative
+		top -15px
+	.view
+		color gris_claro
+.header
+	height 3.5em
+	.title
+		font-size 1.1em
+		text-align center
+		padding 1.2em 0
+	.icon-menu
+		color gris_oscuro
+
+@media screen and (min-width: 480px)
+	.playlists
+		&.small
+			width 42em
+		.view-head
+			width 768px
+			margin 0 auto
+			border-bottom 1px solid gris_claro
+			padding 1em 0
+
+	
+			
+		
+
+
+
+
+
